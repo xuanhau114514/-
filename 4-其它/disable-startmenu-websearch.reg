@@ -1,0 +1,26 @@
+Windows Registry Editor Version 5.00
+
+; ---------------------------------------------------------------------------
+; 关闭 Windows 11 开始菜单 / 搜索框的联网搜索
+; Disable Start menu & search box web/cloud search
+;
+; 用法: 右键 -> 合并   (若被安全软件拦截, 请用【以管理员身份运行】的方式导入)
+;
+; 生效方式: 关闭并重新打开开始菜单; 若无效请注销或重启资源管理器
+; 撤销: 导入 undo-startmenu-websearch.reg
+; ---------------------------------------------------------------------------
+
+; 1) 经典 Bing 搜索开关 (移除搜索框里的网页结果)
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Search]
+"BingSearchEnabled"=dword:00000000
+"CortanaConsent"=dword:00000000
+
+; 2) 现代搜索设置 (云内容搜索 / 动态搜索框)
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\SearchSettings]
+"IsDynamicSearchBoxEnabled"=dword:00000000
+"IsMSACloudSearchEnabled"=dword:00000000
+"IsAADCloudSearchEnabled"=dword:00000000
+
+; 3) 策略: 从搜索框移除网页/建议 (此项需要管理员权限才能写入)
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer]
+"DisableSearchBoxSuggestions"=dword:00000001
