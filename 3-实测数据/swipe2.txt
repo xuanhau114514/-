@@ -1,0 +1,402 @@
+﻿=== SWIPE RECORDER ===
+  screen 3000 x 2000 (physical)   duration 35s
+
+RegisterClassEx -> atom 49729  (err 0)
+window handle = 0x8054C
+=== RAW INPUT DEVICES ===
+  [0] type=2 handle=0x3F022F  usagePage=0xFF07 usage=0x51 inLen=73 valueCaps=6 linkColls=1
+        name=\\?\HID#{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02045e_PID&0921_REV&0030_cb70860b8c24&Col03#9&1e5e67f0&0&0002#{4d1e55b2-f16f-11cf-88cb-001111000030}
+  [1] type=1 handle=0x18052B
+        name=\\?\HID#{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02045e_PID&0921_REV&0030_cb70860b8c24&Col01#9&1e5e67f0&0&0000#{884b96c3-56ef-11d1-bc8c-00a0c91405dd}
+  [2] type=2 handle=0x67049B  usagePage=0x0D usage=0x04 inLen=63 valueCaps=30 linkColls=5
+        name=\\?\VIRTUAL_DIGITIZER
+  [3] type=2 handle=0xB04AF  usagePage=0xFF00 usage=0xF900 inLen=3 valueCaps=1 linkColls=1
+        name=\\?\HID#VID_045E&PID_0922&Col0B#7&36425755&0&000a#{4d1e55b2-f16f-11cf-88cb-001111000030}
+  [4] type=3 handle=0x1304B1
+        name=\\?\HID#VID_045E&PID_0922&Col07#7&36425755&0&0006#{4d1e55b2-f16f-11cf-88cb-001111000030}
+  [5] type=2 handle=0x704B9  usagePage=0xFF05 usage=0x01 inLen=35 valueCaps=2 linkColls=1
+        name=\\?\HID#VID_045E&PID_0922&Col04#7&36425755&0&0003#{4d1e55b2-f16f-11cf-88cb-001111000030}
+  [6] type=2 handle=0x404BD  usagePage=0xFF05 usage=0x50 inLen=61 valueCaps=10 linkColls=1
+        name=\\?\HID#VID_045E&PID_0922&Col0A#7&36425755&0&0009#{4d1e55b2-f16f-11cf-88cb-001111000030}
+  [7] type=2 handle=0x804BF  usagePage=0xFF05 usage=0x04 inLen=60 valueCaps=3 linkColls=1
+        name=\\?\HID#VID_045E&PID_0922&Col09#7&36425755&0&0008#{4d1e55b2-f16f-11cf-88cb-001111000030}
+  [8] type=2 handle=0x604C9  usagePage=0xFF07 usage=0x01 inLen=39 valueCaps=2 linkColls=1
+        name=\\?\HID#VID_045E&PID_0922&Col08#7&36425755&0&0007#{4d1e55b2-f16f-11cf-88cb-001111000030}
+  [9] type=2 handle=0x404EB  usagePage=0x0D usage=0x05 inLen=30 valueCaps=17 linkColls=6
+        name=\\?\HID#VID_045E&PID_0922&Col06#7&36425755&0&0005#{4d1e55b2-f16f-11cf-88cb-001111000030}
+  [10] type=0 handle=0x40549
+        name=\\?\HID#VID_045E&PID_0922&Col02#7&36425755&0&0001#{378de44c-56ef-11d1-bc8c-00a0c91405dd}
+  [11] type=1 handle=0x5052D
+        name=\\?\HID#VID_045E&PID_0922&Col01#7&36425755&0&0000#{884b96c3-56ef-11d1-bc8c-00a0c91405dd}
+  [12] type=2 handle=0xB04EF  usagePage=0x0C usage=0x01 inLen=3 valueCaps=0 linkColls=1
+        name=\\?\HID#VID_045E&PID_0922&Col03#7&36425755&0&0002#{4d1e55b2-f16f-11cf-88cb-001111000030}
+  [13] type=1 handle=0x3E01E9
+        name=\\?\Microsoft Keyboard RID\0
+  [14] type=2 handle=0x10084  usagePage=0x0D usage=0x04 inLen=63 valueCaps=30 linkColls=5
+        name=\\?\VIRTUAL_DIGITIZER
+  [15] type=2 handle=0x1009F  usagePage=0xFF09 usage=0x100 inLen=28 valueCaps=8 linkColls=3
+        name=\\?\HID#VEN_8086&DEV_9D3E&SUBSYS_00000000&REV_21&Col0A#4&f87ce30&0&0009#{4d1e55b2-f16f-11cf-88cb-001111000030}
+  [16] type=2 handle=0x1009B  usagePage=0xFF0B usage=0x0B inLen=7488 valueCaps=10 linkColls=1
+        name=\\?\HID#VEN_8086&DEV_9D3E&SUBSYS_00000000&REV_21&Col03#4&f87ce30&0&0002#{4d1e55b2-f16f-11cf-88cb-001111000030}
+  [17] type=2 handle=0x10097  usagePage=0xFF0F usage=0x60 inLen=5 valueCaps=1 linkColls=1
+        name=\\?\HID#VEN_8086&DEV_9D3E&SUBSYS_00000000&REV_21&Col08#4&f87ce30&0&0007#{4d1e55b2-f16f-11cf-88cb-001111000030}
+  [18] type=2 handle=0x10093  usagePage=0x0D usage=0x04 inLen=6 valueCaps=2 linkColls=1
+        name=\\?\HID#VEN_8086&DEV_9D3E&SUBSYS_00000000&REV_21&Col02#4&f87ce30&0&0001#{4d1e55b2-f16f-11cf-88cb-001111000030}
+  [19] type=2 handle=0x10091  usagePage=0xFF0F usage=0x50 inLen=61 valueCaps=9 linkColls=1
+        name=\\?\HID#VEN_8086&DEV_9D3E&SUBSYS_00000000&REV_21&Col07#4&f87ce30&0&0006#{4d1e55b2-f16f-11cf-88cb-001111000030}
+  [20] type=2 handle=0x1008F  usagePage=0xFFFF usage=0x01 inLen=513 valueCaps=1 linkColls=1
+        name=\\?\HID#VEN_8086&DEV_9D3E&SUBSYS_00000000&REV_21&Col01#4&f87ce30&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
+  [21] type=2 handle=0x1008D  usagePage=0x01 usage=0x0D inLen=2 valueCaps=0 linkColls=6
+        name=\\?\HID#HID_DEVICE_SYSTEM_VHF#4&8bafcaf&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
+  [22] type=2 handle=0x10089  usagePage=0x0C usage=0x01 inLen=5 valueCaps=0 linkColls=1
+        name=\\?\HID#MSHW0029&Col02#3&257665f9&0&0001#{4d1e55b2-f16f-11cf-88cb-001111000030}
+  [23] type=2 handle=0x10085  usagePage=0x0D usage=0x04 inLen=212 valueCaps=63 linkColls=11
+        name=\\?\HID#VEN_8086&DEV_9D3E&SUBSYS_00000000&REV_21&Col05#4&f87ce30&0&0004#{4d1e55b2-f16f-11cf-88cb-001111000030}
+  [24] type=2 handle=0x10081  usagePage=0xFFAA usage=0xBB inLen=33 valueCaps=1 linkColls=1
+        name=\\?\HID#GVInput&Col05#1&2d595ca7&0&0004#{4d1e55b2-f16f-11cf-88cb-001111000030}
+  [25] type=2 handle=0x1007D  usagePage=0x0D usage=0x02 inLen=16 valueCaps=7 linkColls=2
+        name=\\?\HID#VEN_8086&DEV_9D3E&SUBSYS_00000000&REV_21&Col04#4&f87ce30&0&0003#{4d1e55b2-f16f-11cf-88cb-001111000030}
+  [26] type=2 handle=0x10079  usagePage=0xFFEE usage=0xCC inLen=65 valueCaps=1 linkColls=1
+        name=\\?\HID#GVInput&Col04#1&2d595ca7&0&0003#{4d1e55b2-f16f-11cf-88cb-001111000030}
+  [27] type=2 handle=0x1006F  usagePage=0x0C usage=0x01 inLen=2 valueCaps=0 linkColls=1
+        name=\\?\HID#ConvertedDevice&Col02#6&32348248&0&0001#{4d1e55b2-f16f-11cf-88cb-001111000030}
+  [28] type=2 handle=0x1006D  usagePage=0xFFFF usage=0x01 inLen=6 valueCaps=1 linkColls=1
+        name=\\?\HID#VEN_8086&DEV_9D3E&SUBSYS_00000000&REV_21&Col09#4&f87ce30&0&0008#{4d1e55b2-f16f-11cf-88cb-001111000030}
+  [29] type=0 handle=0x10054
+        name=\\?\HID#GVInput&Col02#1&2d595ca7&0&0001#{378de44c-56ef-11d1-bc8c-00a0c91405dd}
+  [30] type=0 handle=0x10052
+        name=\\?\HID#GVInput&Col01#1&2d595ca7&0&0000#{378de44c-56ef-11d1-bc8c-00a0c91405dd}
+  [31] type=0 handle=0x1004E
+        name=\\?\HID#VEN_8086&DEV_9D3E&SUBSYS_00000000&REV_21&Col06#4&f87ce30&0&0005#{378de44c-56ef-11d1-bc8c-00a0c91405dd}
+  [32] type=1 handle=0x10047
+        name=\\?\HID#MSHW0029&Col01#3&257665f9&0&0000#{884b96c3-56ef-11d1-bc8c-00a0c91405dd}
+  [33] type=1 handle=0x10045
+        name=\\?\HID#GVInput&Col03#1&2d595ca7&0&0002#{884b96c3-56ef-11d1-bc8c-00a0c91405dd}
+  [34] type=1 handle=0x10043
+        name=\\?\HID#ConvertedDevice&Col01#6&32348248&0&0000#{884b96c3-56ef-11d1-bc8c-00a0c91405dd}
+  [35] type=1 handle=0x1003F
+        name=\\?\HID#HID_DEVICE_SYSTEM_VHF#4&1877ee48&0&0000#{884b96c3-56ef-11d1-bc8c-00a0c91405dd}
+
+=== VALUE CAPABILITIES OF EACH HID DEVICE ===
+
+  device 0x3F022F  usagePage=0xFF07 usage=0x51  valueCaps=6
+    \\?\HID#{00001812-0000-1000-8000-00805f9b34fb}_Dev_VID&02045e_PID&0921_REV&0030_cb70860b8c24&Col03#9&1e5e67f0&0&0002#{4d1e55b2-f16f-11cf-88cb-001111000030}
+      page=0xFF07 usage=0xC6         linkColl=0   linkPage=0xFF07 linkUsage=0x51 rid=42  bits=8   cnt=72  logical=0..-1
+      page=0xFF07 usage=0xC9         linkColl=0   linkPage=0xFF07 linkUsage=0x51 rid=43  bits=8   cnt=72  logical=0..-1
+      page=0xFF07 usage=0xCC..0xCF   linkColl=0   linkPage=0xFF07 linkUsage=0x51 rid=44  bits=32  cnt=1   logical=-2147483648..2147483647
+      page=0xFF07 usage=0xD8..0xDB   linkColl=0   linkPage=0xFF07 linkUsage=0x51 rid=45  bits=32  cnt=1   logical=-2147483648..2147483647
+      page=0xFF07 usage=0xE4..0xE7   linkColl=0   linkPage=0xFF07 linkUsage=0x51 rid=46  bits=32  cnt=1   logical=-2147483648..2147483647
+      page=0xFF07 usage=0xF0..0xF3   linkColl=0   linkPage=0xFF07 linkUsage=0x51 rid=47  bits=32  cnt=1   logical=-2147483648..2147483647
+
+  device 0x67049B  usagePage=0x0D usage=0x04  valueCaps=30
+    \\?\VIRTUAL_DIGITIZER
+      page=0x0D usage=0x51         linkColl=1   linkPage=0x0D linkUsage=0x22 rid=1   bits=8   cnt=1   logical=0..1
+      page=0x0D usage=0x3F         linkColl=1   linkPage=0x0D linkUsage=0x22 rid=1   bits=16  cnt=1   logical=0..359
+      page=0x0D usage=0x48         linkColl=1   linkPage=0x0D linkUsage=0x22 rid=1   bits=16  cnt=1   logical=0..32768
+      page=0x0D usage=0x49         linkColl=1   linkPage=0x0D linkUsage=0x22 rid=1   bits=16  cnt=1   logical=0..32768
+      page=0x0D usage=0x30         linkColl=1   linkPage=0x0D linkUsage=0x22 rid=1   bits=16  cnt=1   logical=0..1024
+      page=0x01 usage=0x30         linkColl=1   linkPage=0x0D linkUsage=0x22 rid=1   bits=16  cnt=1   logical=0..3000
+      page=0x01 usage=0x31         linkColl=1   linkPage=0x0D linkUsage=0x22 rid=1   bits=16  cnt=1   logical=0..2000
+      page=0x0D usage=0x51         linkColl=2   linkPage=0x01 linkUsage=0x00 rid=1   bits=8   cnt=1   logical=0..1
+      page=0x0D usage=0x3F         linkColl=2   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..359
+      page=0x0D usage=0x48         linkColl=2   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..32768
+      page=0x0D usage=0x49         linkColl=2   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..32768
+      page=0x0D usage=0x30         linkColl=2   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..1024
+      page=0x01 usage=0x30         linkColl=2   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..3000
+      page=0x01 usage=0x31         linkColl=2   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..2000
+      page=0x0D usage=0x51         linkColl=3   linkPage=0x01 linkUsage=0x00 rid=1   bits=8   cnt=1   logical=0..1
+      page=0x0D usage=0x3F         linkColl=3   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..359
+      page=0x0D usage=0x48         linkColl=3   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..32768
+      page=0x0D usage=0x49         linkColl=3   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..32768
+      page=0x0D usage=0x30         linkColl=3   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..1024
+      page=0x01 usage=0x30         linkColl=3   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..3000
+      page=0x01 usage=0x31         linkColl=3   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..2000
+      page=0x0D usage=0x51         linkColl=4   linkPage=0x01 linkUsage=0x00 rid=1   bits=8   cnt=1   logical=0..1
+      page=0x0D usage=0x3F         linkColl=4   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..359
+      page=0x0D usage=0x48         linkColl=4   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..32768
+      page=0x0D usage=0x49         linkColl=4   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..32768
+      page=0x0D usage=0x30         linkColl=4   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..1024
+      page=0x01 usage=0x30         linkColl=4   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..3000
+      page=0x01 usage=0x31         linkColl=4   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..2000
+      page=0x0D usage=0x56         linkColl=0   linkPage=0x0D linkUsage=0x04 rid=1   bits=32  cnt=1   logical=0..16777215
+      page=0x0D usage=0x54         linkColl=0   linkPage=0x0D linkUsage=0x04 rid=1   bits=16  cnt=1   logical=0..16777215
+
+  device 0xB04AF  usagePage=0xFF00 usage=0xF900  valueCaps=1
+    \\?\HID#VID_045E&PID_0922&Col0B#7&36425755&0&000a#{4d1e55b2-f16f-11cf-88cb-001111000030}
+      page=0xFF00 usage=0xF906       linkColl=0   linkPage=0xFF00 linkUsage=0xF900 rid=50  bits=16  cnt=1   logical=0..65535
+
+  device 0x704B9  usagePage=0xFF05 usage=0x01  valueCaps=2
+    \\?\HID#VID_045E&PID_0922&Col04#7&36425755&0&0003#{4d1e55b2-f16f-11cf-88cb-001111000030}
+      page=0xFF05 usage=0x20         linkColl=0   linkPage=0xFF05 linkUsage=0x01 rid=13  bits=8   cnt=2   logical=0..-1
+      page=0xFF05 usage=0x21         linkColl=0   linkPage=0xFF05 linkUsage=0x01 rid=13  bits=8   cnt=32  logical=-127..127
+
+  device 0x404BD  usagePage=0xFF05 usage=0x50  valueCaps=10
+    \\?\HID#VID_045E&PID_0922&Col0A#7&36425755&0&0009#{4d1e55b2-f16f-11cf-88cb-001111000030}
+      page=0xFF05 usage=0x60         linkColl=0   linkPage=0xFF05 linkUsage=0x50 rid=32  bits=8   cnt=60  logical=0..-1
+      page=0xFF05 usage=0x63         linkColl=0   linkPage=0xFF05 linkUsage=0x50 rid=33  bits=8   cnt=60  logical=0..-1
+      page=0xFF05 usage=0x66..0x69   linkColl=0   linkPage=0xFF05 linkUsage=0x50 rid=34  bits=32  cnt=1   logical=0..-1
+      page=0xFF05 usage=0x72..0x75   linkColl=0   linkPage=0xFF05 linkUsage=0x50 rid=35  bits=32  cnt=1   logical=0..-1
+      page=0xFF05 usage=0x7E..0x81   linkColl=0   linkPage=0xFF05 linkUsage=0x50 rid=36  bits=32  cnt=1   logical=0..-1
+      page=0xFF05 usage=0x8A..0x8D   linkColl=0   linkPage=0xFF05 linkUsage=0x50 rid=37  bits=32  cnt=1   logical=0..-1
+      page=0xFF05 usage=0x96..0x99   linkColl=0   linkPage=0xFF05 linkUsage=0x50 rid=38  bits=32  cnt=1   logical=0..-1
+      page=0xFF05 usage=0xA2..0xA5   linkColl=0   linkPage=0xFF05 linkUsage=0x50 rid=39  bits=32  cnt=1   logical=0..-1
+      page=0xFF05 usage=0xAE..0xB1   linkColl=0   linkPage=0xFF05 linkUsage=0x50 rid=40  bits=32  cnt=1   logical=0..-1
+      page=0xFF05 usage=0xBA..0xBD   linkColl=0   linkPage=0xFF05 linkUsage=0x50 rid=41  bits=32  cnt=1   logical=0..-1
+
+  device 0x804BF  usagePage=0xFF05 usage=0x04  valueCaps=3
+    \\?\HID#VID_045E&PID_0922&Col09#7&36425755&0&0008#{4d1e55b2-f16f-11cf-88cb-001111000030}
+      page=0xFF05 usage=0x31         linkColl=0   linkPage=0xFF05 linkUsage=0x04 rid=14  bits=8   cnt=1   logical=0..255
+      page=0xFF05 usage=0x30         linkColl=0   linkPage=0xFF05 linkUsage=0x04 rid=14  bits=8   cnt=1   logical=0..255
+      page=0xFF05 usage=0x32         linkColl=0   linkPage=0xFF05 linkUsage=0x04 rid=14  bits=8   cnt=57  logical=0..255
+
+  device 0x604C9  usagePage=0xFF07 usage=0x01  valueCaps=2
+    \\?\HID#VID_045E&PID_0922&Col08#7&36425755&0&0007#{4d1e55b2-f16f-11cf-88cb-001111000030}
+      page=0xFF07 usage=0x04         linkColl=0   linkPage=0xFF07 linkUsage=0x01 rid=10  bits=8   cnt=38  logical=0..255
+      page=0xFF07 usage=0x05         linkColl=0   linkPage=0xFF07 linkUsage=0x01 rid=9   bits=8   cnt=38  logical=0..255
+
+  device 0x404EB  usagePage=0x0D usage=0x05  valueCaps=17
+    \\?\HID#VID_045E&PID_0922&Col06#7&36425755&0&0005#{4d1e55b2-f16f-11cf-88cb-001111000030}
+      page=0x0D usage=0x51         linkColl=1   linkPage=0x0D linkUsage=0x22 rid=4   bits=3   cnt=1   logical=0..3
+      page=0x01 usage=0x30         linkColl=1   linkPage=0x0D linkUsage=0x22 rid=4   bits=16  cnt=1   logical=0..2020
+      page=0x01 usage=0x31         linkColl=1   linkPage=0x0D linkUsage=0x22 rid=4   bits=16  cnt=1   logical=0..1321
+      page=0x0D usage=0x51         linkColl=2   linkPage=0x0D linkUsage=0x22 rid=4   bits=3   cnt=1   logical=0..3
+      page=0x01 usage=0x30         linkColl=2   linkPage=0x0D linkUsage=0x22 rid=4   bits=16  cnt=1   logical=0..2020
+      page=0x01 usage=0x31         linkColl=2   linkPage=0x0D linkUsage=0x22 rid=4   bits=16  cnt=1   logical=0..1321
+      page=0x0D usage=0x51         linkColl=3   linkPage=0x0D linkUsage=0x22 rid=4   bits=3   cnt=1   logical=0..3
+      page=0x01 usage=0x30         linkColl=3   linkPage=0x0D linkUsage=0x22 rid=4   bits=16  cnt=1   logical=0..2020
+      page=0x01 usage=0x31         linkColl=3   linkPage=0x0D linkUsage=0x22 rid=4   bits=16  cnt=1   logical=0..1321
+      page=0x0D usage=0x51         linkColl=4   linkPage=0x0D linkUsage=0x22 rid=4   bits=3   cnt=1   logical=0..3
+      page=0x01 usage=0x30         linkColl=4   linkPage=0x0D linkUsage=0x22 rid=4   bits=16  cnt=1   logical=0..2020
+      page=0x01 usage=0x31         linkColl=4   linkPage=0x0D linkUsage=0x22 rid=4   bits=16  cnt=1   logical=0..1321
+      page=0x0D usage=0x51         linkColl=5   linkPage=0x0D linkUsage=0x22 rid=4   bits=3   cnt=1   logical=0..3
+      page=0x01 usage=0x30         linkColl=5   linkPage=0x0D linkUsage=0x22 rid=4   bits=16  cnt=1   logical=0..2020
+      page=0x01 usage=0x31         linkColl=5   linkPage=0x0D linkUsage=0x22 rid=4   bits=16  cnt=1   logical=0..1321
+      page=0x0D usage=0x56         linkColl=0   linkPage=0x0D linkUsage=0x05 rid=4   bits=16  cnt=1   logical=0..65535
+      page=0x0D usage=0x54         linkColl=0   linkPage=0x0D linkUsage=0x05 rid=4   bits=8   cnt=1   logical=0..127
+
+  device 0xB04EF  usagePage=0x0C usage=0x01  valueCaps=0
+    \\?\HID#VID_045E&PID_0922&Col03#7&36425755&0&0002#{4d1e55b2-f16f-11cf-88cb-001111000030}
+
+  device 0x10084  usagePage=0x0D usage=0x04  valueCaps=30
+    \\?\VIRTUAL_DIGITIZER
+      page=0x0D usage=0x51         linkColl=1   linkPage=0x0D linkUsage=0x22 rid=1   bits=8   cnt=1   logical=0..1
+      page=0x0D usage=0x3F         linkColl=1   linkPage=0x0D linkUsage=0x22 rid=1   bits=16  cnt=1   logical=0..359
+      page=0x0D usage=0x48         linkColl=1   linkPage=0x0D linkUsage=0x22 rid=1   bits=16  cnt=1   logical=0..32768
+      page=0x0D usage=0x49         linkColl=1   linkPage=0x0D linkUsage=0x22 rid=1   bits=16  cnt=1   logical=0..32768
+      page=0x0D usage=0x30         linkColl=1   linkPage=0x0D linkUsage=0x22 rid=1   bits=16  cnt=1   logical=0..1024
+      page=0x01 usage=0x30         linkColl=1   linkPage=0x0D linkUsage=0x22 rid=1   bits=16  cnt=1   logical=0..3000
+      page=0x01 usage=0x31         linkColl=1   linkPage=0x0D linkUsage=0x22 rid=1   bits=16  cnt=1   logical=0..2000
+      page=0x0D usage=0x51         linkColl=2   linkPage=0x01 linkUsage=0x00 rid=1   bits=8   cnt=1   logical=0..1
+      page=0x0D usage=0x3F         linkColl=2   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..359
+      page=0x0D usage=0x48         linkColl=2   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..32768
+      page=0x0D usage=0x49         linkColl=2   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..32768
+      page=0x0D usage=0x30         linkColl=2   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..1024
+      page=0x01 usage=0x30         linkColl=2   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..3000
+      page=0x01 usage=0x31         linkColl=2   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..2000
+      page=0x0D usage=0x51         linkColl=3   linkPage=0x01 linkUsage=0x00 rid=1   bits=8   cnt=1   logical=0..1
+      page=0x0D usage=0x3F         linkColl=3   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..359
+      page=0x0D usage=0x48         linkColl=3   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..32768
+      page=0x0D usage=0x49         linkColl=3   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..32768
+      page=0x0D usage=0x30         linkColl=3   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..1024
+      page=0x01 usage=0x30         linkColl=3   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..3000
+      page=0x01 usage=0x31         linkColl=3   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..2000
+      page=0x0D usage=0x51         linkColl=4   linkPage=0x01 linkUsage=0x00 rid=1   bits=8   cnt=1   logical=0..1
+      page=0x0D usage=0x3F         linkColl=4   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..359
+      page=0x0D usage=0x48         linkColl=4   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..32768
+      page=0x0D usage=0x49         linkColl=4   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..32768
+      page=0x0D usage=0x30         linkColl=4   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..1024
+      page=0x01 usage=0x30         linkColl=4   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..3000
+      page=0x01 usage=0x31         linkColl=4   linkPage=0x01 linkUsage=0x00 rid=1   bits=16  cnt=1   logical=0..2000
+      page=0x0D usage=0x56         linkColl=0   linkPage=0x0D linkUsage=0x04 rid=1   bits=32  cnt=1   logical=0..16777215
+      page=0x0D usage=0x54         linkColl=0   linkPage=0x0D linkUsage=0x04 rid=1   bits=16  cnt=1   logical=0..16777215
+
+  device 0x1009F  usagePage=0xFF09 usage=0x100  valueCaps=8
+    \\?\HID#VEN_8086&DEV_9D3E&SUBSYS_00000000&REV_21&Col0A#4&f87ce30&0&0009#{4d1e55b2-f16f-11cf-88cb-001111000030}
+      page=0xFF09 usage=0x101        linkColl=1   linkPage=0xFF09 linkUsage=0x00 rid=80  bits=16  cnt=1   logical=0..65535
+      page=0x0D usage=0x51         linkColl=2   linkPage=0x0D linkUsage=0x01 rid=80  bits=16  cnt=1   logical=0..65535
+      page=0x01 usage=0x30         linkColl=2   linkPage=0x0D linkUsage=0x01 rid=80  bits=16  cnt=2   logical=0..9600
+      page=0x01 usage=0x31         linkColl=2   linkPage=0x0D linkUsage=0x01 rid=80  bits=16  cnt=2   logical=0..7200
+      page=0x0D usage=0x48         linkColl=2   linkPage=0x0D linkUsage=0x01 rid=80  bits=16  cnt=1   logical=0..9600
+      page=0x0D usage=0x49         linkColl=2   linkPage=0x0D linkUsage=0x01 rid=80  bits=16  cnt=1   logical=0..7200
+      page=0x0D usage=0x54         linkColl=1   linkPage=0xFF09 linkUsage=0x00 rid=80  bits=8   cnt=1   logical=0..255
+      page=0x0D usage=0x56         linkColl=1   linkPage=0xFF09 linkUsage=0x00 rid=80  bits=32  cnt=1   logical=0..268435455
+
+  device 0x1009B  usagePage=0xFF0B usage=0x0B  valueCaps=10
+    \\?\HID#VEN_8086&DEV_9D3E&SUBSYS_00000000&REV_21&Col03#4&f87ce30&0&0002#{4d1e55b2-f16f-11cf-88cb-001111000030}
+      page=0xFF0B usage=0x2E         linkColl=0   linkPage=0xFF0B linkUsage=0x0B rid=46  bits=8   cnt=15  logical=0..255
+      page=0xFF0B usage=0x2F         linkColl=0   linkPage=0xFF0B linkUsage=0x0B rid=47  bits=8   cnt=31  logical=0..255
+      page=0xFF0B usage=0x30         linkColl=0   linkPage=0xFF0B linkUsage=0x0B rid=48  bits=8   cnt=62  logical=0..255
+      page=0xFF0B usage=0x31         linkColl=0   linkPage=0xFF0B linkUsage=0x0B rid=49  bits=8   cnt=254 logical=0..255
+      page=0xFF0B usage=0x32         linkColl=0   linkPage=0xFF0B linkUsage=0x0B rid=50  bits=8   cnt=510 logical=0..255
+      page=0xFF0B usage=0x33         linkColl=0   linkPage=0xFF0B linkUsage=0x0B rid=51  bits=8   cnt=1022 logical=0..255
+      page=0xFF0B usage=0x34         linkColl=0   linkPage=0xFF0B linkUsage=0x0B rid=52  bits=8   cnt=2046 logical=0..255
+      page=0xFF0B usage=0x35         linkColl=0   linkPage=0xFF0B linkUsage=0x0B rid=53  bits=8   cnt=4094 logical=0..255
+      page=0xFF0B usage=0x36         linkColl=0   linkPage=0xFF0B linkUsage=0x0B rid=54  bits=8   cnt=3582 logical=0..255
+      page=0xFF0B usage=0x37         linkColl=0   linkPage=0xFF0B linkUsage=0x0B rid=55  bits=8   cnt=7487 logical=0..255
+
+  device 0x10097  usagePage=0xFF0F usage=0x60  valueCaps=1
+    \\?\HID#VEN_8086&DEV_9D3E&SUBSYS_00000000&REV_21&Col08#4&f87ce30&0&0007#{4d1e55b2-f16f-11cf-88cb-001111000030}
+      page=0xFF0F usage=0xC6         linkColl=0   linkPage=0xFF0F linkUsage=0x60 rid=25  bits=8   cnt=4   logical=0..255
+
+  device 0x10093  usagePage=0x0D usage=0x04  valueCaps=2
+    \\?\HID#VEN_8086&DEV_9D3E&SUBSYS_00000000&REV_21&Col02#4&f87ce30&0&0001#{4d1e55b2-f16f-11cf-88cb-001111000030}
+      page=0x01 usage=0x30         linkColl=0   linkPage=0x0D linkUsage=0x04 rid=64  bits=16  cnt=1   logical=0..32767
+      page=0x01 usage=0x31         linkColl=0   linkPage=0x0D linkUsage=0x04 rid=64  bits=16  cnt=1   logical=0..32767
+
+  device 0x10091  usagePage=0xFF0F usage=0x50  valueCaps=9
+    \\?\HID#VEN_8086&DEV_9D3E&SUBSYS_00000000&REV_21&Col07#4&f87ce30&0&0006#{4d1e55b2-f16f-11cf-88cb-001111000030}
+      page=0xFF0F usage=0x60         linkColl=0   linkPage=0xFF0F linkUsage=0x50 rid=31  bits=8   cnt=60  logical=0..255
+      page=0xFF0F usage=0x66         linkColl=0   linkPage=0xFF0F linkUsage=0x50 rid=33  bits=32  cnt=1   logical=-2147483648..2147483647
+      page=0xFF0F usage=0x67         linkColl=0   linkPage=0xFF0F linkUsage=0x50 rid=33  bits=32  cnt=1   logical=-2147483648..2147483647
+      page=0xFF0F usage=0x68         linkColl=0   linkPage=0xFF0F linkUsage=0x50 rid=33  bits=32  cnt=1   logical=-2147483648..2147483647
+      page=0xFF0F usage=0x69         linkColl=0   linkPage=0xFF0F linkUsage=0x50 rid=33  bits=32  cnt=1   logical=-2147483648..2147483647
+      page=0xFF0F usage=0x72         linkColl=0   linkPage=0xFF0F linkUsage=0x50 rid=34  bits=32  cnt=1   logical=-2147483648..2147483647
+      page=0xFF0F usage=0x73         linkColl=0   linkPage=0xFF0F linkUsage=0x50 rid=34  bits=32  cnt=1   logical=-2147483648..2147483647
+      page=0xFF0F usage=0x74         linkColl=0   linkPage=0xFF0F linkUsage=0x50 rid=34  bits=32  cnt=1   logical=-2147483648..2147483647
+      page=0xFF0F usage=0x75         linkColl=0   linkPage=0xFF0F linkUsage=0x50 rid=34  bits=32  cnt=1   logical=-2147483648..2147483647
+
+  device 0x1008F  usagePage=0xFFFF usage=0x01  valueCaps=1
+    \\?\HID#VEN_8086&DEV_9D3E&SUBSYS_00000000&REV_21&Col01#4&f87ce30&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
+      page=0xFFFF usage=0x04         linkColl=0   linkPage=0xFFFF linkUsage=0x01 rid=91  bits=32  cnt=128 logical=0..0
+
+  device 0x1008D  usagePage=0x01 usage=0x0D  valueCaps=0
+    \\?\HID#HID_DEVICE_SYSTEM_VHF#4&8bafcaf&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}
+
+  device 0x10089  usagePage=0x0C usage=0x01  valueCaps=0
+    \\?\HID#MSHW0029&Col02#3&257665f9&0&0001#{4d1e55b2-f16f-11cf-88cb-001111000030}
+
+  device 0x10085  usagePage=0x0D usage=0x04  valueCaps=63
+    \\?\HID#VEN_8086&DEV_9D3E&SUBSYS_00000000&REV_21&Col05#4&f87ce30&0&0004#{4d1e55b2-f16f-11cf-88cb-001111000030}
+      page=0xFF00 usage=0x01         linkColl=0   linkPage=0x0D linkUsage=0x04 rid=3   bits=16  cnt=1   logical=0..65535
+      page=0x0D usage=0x51         linkColl=1   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=1   logical=0..65535
+      page=0x01 usage=0x30         linkColl=1   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=2   logical=0..9600
+      page=0x01 usage=0x31         linkColl=1   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=2   logical=0..7200
+      page=0x0D usage=0x48         linkColl=1   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=1   logical=0..9600
+      page=0x0D usage=0x49         linkColl=1   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=1   logical=0..7200
+      page=0xFF00 usage=0x02         linkColl=1   linkPage=0x0D linkUsage=0x22 rid=3   bits=8   cnt=4   logical=0..255
+      page=0x0D usage=0x51         linkColl=2   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=1   logical=0..65535
+      page=0x01 usage=0x30         linkColl=2   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=2   logical=0..9600
+      page=0x01 usage=0x31         linkColl=2   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=2   logical=0..7200
+      page=0x0D usage=0x48         linkColl=2   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=1   logical=0..9600
+      page=0x0D usage=0x49         linkColl=2   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=1   logical=0..7200
+      page=0xFF00 usage=0x02         linkColl=2   linkPage=0x0D linkUsage=0x22 rid=3   bits=8   cnt=4   logical=0..255
+      page=0x0D usage=0x51         linkColl=3   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=1   logical=0..65535
+      page=0x01 usage=0x30         linkColl=3   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=2   logical=0..9600
+      page=0x01 usage=0x31         linkColl=3   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=2   logical=0..7200
+      page=0x0D usage=0x48         linkColl=3   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=1   logical=0..9600
+      page=0x0D usage=0x49         linkColl=3   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=1   logical=0..7200
+      page=0xFF00 usage=0x02         linkColl=3   linkPage=0x0D linkUsage=0x22 rid=3   bits=8   cnt=4   logical=0..255
+      page=0x0D usage=0x51         linkColl=4   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=1   logical=0..65535
+      page=0x01 usage=0x30         linkColl=4   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=2   logical=0..9600
+      page=0x01 usage=0x31         linkColl=4   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=2   logical=0..7200
+      page=0x0D usage=0x48         linkColl=4   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=1   logical=0..9600
+      page=0x0D usage=0x49         linkColl=4   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=1   logical=0..7200
+      page=0xFF00 usage=0x02         linkColl=4   linkPage=0x0D linkUsage=0x22 rid=3   bits=8   cnt=4   logical=0..255
+      page=0x0D usage=0x51         linkColl=5   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=1   logical=0..65535
+      page=0x01 usage=0x30         linkColl=5   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=2   logical=0..9600
+      page=0x01 usage=0x31         linkColl=5   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=2   logical=0..7200
+      page=0x0D usage=0x48         linkColl=5   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=1   logical=0..9600
+      page=0x0D usage=0x49         linkColl=5   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=1   logical=0..7200
+      page=0xFF00 usage=0x02         linkColl=5   linkPage=0x0D linkUsage=0x22 rid=3   bits=8   cnt=4   logical=0..255
+      page=0x0D usage=0x51         linkColl=6   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=1   logical=0..65535
+      page=0x01 usage=0x30         linkColl=6   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=2   logical=0..9600
+      page=0x01 usage=0x31         linkColl=6   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=2   logical=0..7200
+      page=0x0D usage=0x48         linkColl=6   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=1   logical=0..9600
+      page=0x0D usage=0x49         linkColl=6   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=1   logical=0..7200
+      page=0xFF00 usage=0x02         linkColl=6   linkPage=0x0D linkUsage=0x22 rid=3   bits=8   cnt=4   logical=0..255
+      page=0x0D usage=0x51         linkColl=7   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=1   logical=0..65535
+      page=0x01 usage=0x30         linkColl=7   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=2   logical=0..9600
+      page=0x01 usage=0x31         linkColl=7   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=2   logical=0..7200
+      page=0x0D usage=0x48         linkColl=7   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=1   logical=0..9600
+      page=0x0D usage=0x49         linkColl=7   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=1   logical=0..7200
+      page=0xFF00 usage=0x02         linkColl=7   linkPage=0x0D linkUsage=0x22 rid=3   bits=8   cnt=4   logical=0..255
+      page=0x0D usage=0x51         linkColl=8   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=1   logical=0..65535
+      page=0x01 usage=0x30         linkColl=8   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=2   logical=0..9600
+      page=0x01 usage=0x31         linkColl=8   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=2   logical=0..7200
+      page=0x0D usage=0x48         linkColl=8   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=1   logical=0..9600
+      page=0x0D usage=0x49         linkColl=8   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=1   logical=0..7200
+      page=0xFF00 usage=0x02         linkColl=8   linkPage=0x0D linkUsage=0x22 rid=3   bits=8   cnt=4   logical=0..255
+      page=0x0D usage=0x51         linkColl=9   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=1   logical=0..65535
+      page=0x01 usage=0x30         linkColl=9   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=2   logical=0..9600
+      page=0x01 usage=0x31         linkColl=9   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=2   logical=0..7200
+      page=0x0D usage=0x48         linkColl=9   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=1   logical=0..9600
+      page=0x0D usage=0x49         linkColl=9   linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=1   logical=0..7200
+      page=0xFF00 usage=0x02         linkColl=9   linkPage=0x0D linkUsage=0x22 rid=3   bits=8   cnt=4   logical=0..255
+      page=0x0D usage=0x51         linkColl=10  linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=1   logical=0..65535
+      page=0x01 usage=0x30         linkColl=10  linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=2   logical=0..9600
+      page=0x01 usage=0x31         linkColl=10  linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=2   logical=0..7200
+      page=0x0D usage=0x48         linkColl=10  linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=1   logical=0..9600
+      page=0x0D usage=0x49         linkColl=10  linkPage=0x0D linkUsage=0x22 rid=3   bits=16  cnt=1   logical=0..7200
+      page=0xFF00 usage=0x02         linkColl=10  linkPage=0x0D linkUsage=0x22 rid=3   bits=8   cnt=4   logical=0..255
+      page=0x0D usage=0x54         linkColl=0   linkPage=0x0D linkUsage=0x04 rid=3   bits=8   cnt=1   logical=0..255
+      page=0x0D usage=0x56         linkColl=0   linkPage=0x0D linkUsage=0x04 rid=3   bits=32  cnt=1   logical=0..268435455
+
+  device 0x10081  usagePage=0xFFAA usage=0xBB  valueCaps=1
+    \\?\HID#GVInput&Col05#1&2d595ca7&0&0004#{4d1e55b2-f16f-11cf-88cb-001111000030}
+      page=0xFFAA usage=0x02         linkColl=0   linkPage=0xFFAA linkUsage=0xBB rid=16  bits=8   cnt=32  logical=0..255
+
+  device 0x1007D  usagePage=0x0D usage=0x02  valueCaps=7
+    \\?\HID#VEN_8086&DEV_9D3E&SUBSYS_00000000&REV_21&Col04#4&f87ce30&0&0003#{4d1e55b2-f16f-11cf-88cb-001111000030}
+      page=0x01 usage=0x30         linkColl=1   linkPage=0x0D linkUsage=0x20 rid=1   bits=16  cnt=1   logical=0..9600
+      page=0x01 usage=0x31         linkColl=1   linkPage=0x0D linkUsage=0x20 rid=1   bits=16  cnt=1   logical=0..7200
+      page=0x0D usage=0x30         linkColl=1   linkPage=0x0D linkUsage=0x20 rid=1   bits=16  cnt=1   logical=0..4096
+      page=0x0D usage=0x3D         linkColl=1   linkPage=0x0D linkUsage=0x20 rid=1   bits=16  cnt=1   logical=0..18000
+      page=0x0D usage=0x3E         linkColl=1   linkPage=0x0D linkUsage=0x20 rid=1   bits=16  cnt=1   logical=0..18000
+      page=0x0D usage=0x56         linkColl=1   linkPage=0x0D linkUsage=0x20 rid=1   bits=16  cnt=1   logical=0..65535
+      page=0xFF00 usage=0x01         linkColl=1   linkPage=0x0D linkUsage=0x20 rid=1   bits=8   cnt=1   logical=0..4096
+
+  device 0x10079  usagePage=0xFFEE usage=0xCC  valueCaps=1
+    \\?\HID#GVInput&Col04#1&2d595ca7&0&0003#{4d1e55b2-f16f-11cf-88cb-001111000030}
+      page=0xFFEE usage=0x02         linkColl=0   linkPage=0xFFEE linkUsage=0xCC rid=64  bits=8   cnt=64  logical=0..255
+
+  device 0x1006F  usagePage=0x0C usage=0x01  valueCaps=0
+    \\?\HID#ConvertedDevice&Col02#6&32348248&0&0001#{4d1e55b2-f16f-11cf-88cb-001111000030}
+
+  device 0x1006D  usagePage=0xFFFF usage=0x01  valueCaps=1
+    \\?\HID#VEN_8086&DEV_9D3E&SUBSYS_00000000&REV_21&Col09#4&f87ce30&0&0008#{4d1e55b2-f16f-11cf-88cb-001111000030}
+      page=0xFFFF usage=0x06         linkColl=0   linkPage=0xFFFF linkUsage=0x01 rid=71  bits=8   cnt=4   logical=0..1
+
+RegisterRawInputDevices -> True  (err 6)
+
+### NOW SWIPE ###  do your natural finger swipe from the bottom edge, twice.
+
+
+=== CAPTURED 151 HID REPORTS, 151 WITH X/Y ===
+
+--- ALL X/Y points are dumped to the CSV (no decimation) ---
+   CSV written: C:\Users\hua\Documents\deepseek-harness\default-workspace\swipe2.txt.csv   (151 rows, full resolution)
+
+  X raw range 3834 .. 4182
+  Y raw range 5749 .. 7115
+
+--- first 30 raw reports (any content) ---
+   t=172ms rid=3 dev=0x10085 size=212 count=1 X=3923 Y=7084 Cid=640   raw=0303BF2DE7198002530F530FAC1BAC1B9601C501000000000000000000000000
+   t=172ms rid=3 dev=0x10085 size=212 count=1 X=3923 Y=7084 Cid=640   raw=0303C02DE7188002530F530FAC1BAC1B9601C601000000000000000000000000
+   t=172ms rid=3 dev=0x10085 size=212 count=1 X=3923 Y=7084 Cid=640   raw=0301C12DE71B8002530F530FAC1BAC1B8F01BE01000000000000000000000000
+   t=172ms rid=3 dev=0x10085 size=212 count=1 X=3923 Y=7084 Cid=640   raw=0301C22DE7188002530F530FAC1BAC1B9001BF01000000000000000000000000
+   t=185ms rid=3 dev=0x10085 size=212 count=1 X=3932 Y=7047 Cid=640   raw=0303C32DE71880025C0F5C0F871B871B9001B801000000000000000000000000
+   t=199ms rid=3 dev=0x10085 size=212 count=1 X=3940 Y=6972 Cid=640   raw=0301C42DE7168002640F640F3C1B3C1B9001B901000000000000000000000000
+   t=219ms rid=3 dev=0x10085 size=212 count=1 X=3953 Y=6862 Cid=640   raw=0301C52DE71A8002710F710FCE1ACE1A9101BA01000000000000000000000000
+   t=219ms rid=3 dev=0x10085 size=212 count=1 X=3973 Y=6719 Cid=640   raw=0301C62DE7168002850F850F3F1A3F1A9101B301000000000000000000000000
+   t=235ms rid=3 dev=0x10085 size=212 count=1 X=3995 Y=6554 Cid=640   raw=0301C72DE71A80029B0F9B0F9A199A198B01A501000000000000000000000000
+   t=245ms rid=3 dev=0x10085 size=212 count=1 X=4018 Y=6396 Cid=640   raw=0301C82DE7158002B20FB20FFC18FC1884019801000000000000000000000000
+   t=254ms rid=3 dev=0x10085 size=212 count=1 X=4043 Y=6251 Cid=640   raw=0303C92DE7168002CB0FCB0F6B186B187E018B01000000000000000000000000
+   t=261ms rid=3 dev=0x10085 size=212 count=1 X=4043 Y=6251 Cid=640   raw=0301CA2DE4148002CB0FCB0F6B186B187E018B0100000000E700760019141914
+   t=1123ms rid=3 dev=0x10085 size=212 count=1 X=3955 Y=7077 Cid=641   raw=0301CB2DE7168102730F730FA51BA51B1501CD01000000000000000000000000
+   t=1127ms rid=3 dev=0x10085 size=212 count=1 X=3955 Y=7077 Cid=641   raw=0301CC2DE71A8102730F730FA51BA51B1C01CD01000000000000000000000000
+   t=1142ms rid=3 dev=0x10085 size=212 count=1 X=3955 Y=7077 Cid=641   raw=0301CD2DE7158102730F730FA51BA51B2201CD01000000000000000000000000
+   t=1148ms rid=3 dev=0x10085 size=212 count=1 X=3955 Y=7077 Cid=641   raw=0303CE2DE7168102730F730FA51BA51B2801CD01000000000000000000000000
+   t=1158ms rid=3 dev=0x10085 size=212 count=1 X=3955 Y=7077 Cid=641   raw=0301CF2DE7148102730F730FA51BA51B2D01CD0100000000E700760019141914
+   t=1169ms rid=3 dev=0x10085 size=212 count=1 X=3939 Y=7093 Cid=641   raw=0301D02DE71A8102630F630FB51BB51B3301CD01000000000000000000000000
+   t=1182ms rid=3 dev=0x10085 size=212 count=1 X=3935 Y=7095 Cid=641   raw=0300D12DE71381025F0F5F0FB71BB71B3801CD01000000000000000000000000
+   t=1188ms rid=3 dev=0x10085 size=212 count=1 X=3931 Y=7097 Cid=641   raw=037ED22DE70081025B0F5B0FB91BB91B3C01CD01000000066400000000DE6200
+   t=1202ms rid=3 dev=0x10085 size=212 count=1 X=3927 Y=7105 Cid=641   raw=0303D32DE7198102570F570FC11BC11B3301C501000000000000000000000000
+   t=1211ms rid=3 dev=0x10085 size=212 count=1 X=3927 Y=7105 Cid=641   raw=0303D42DE4198102570F570FC11BC11B3301C501000000000000000000000000
+   t=2049ms rid=3 dev=0x10085 size=212 count=1 X=4036 Y=6931 Cid=642   raw=0303D52DE7198202C40FC40F131B131B8E00A100000000000000000000000000
+   t=2058ms rid=3 dev=0x10085 size=212 count=1 X=4037 Y=6984 Cid=642   raw=0303D62DE7198202C50FC50F481B481B9B00B800000000000000000000000000
+   t=2070ms rid=3 dev=0x10085 size=212 count=1 X=4037 Y=6957 Cid=642   raw=0303D72DE7188202C50FC50F2D1B2D1BA800CD00000000000000000000000000
+   t=2076ms rid=3 dev=0x10085 size=212 count=1 X=4039 Y=6969 Cid=642   raw=0301D82DE71B8202C70FC70F391B391BB400E200000000000000000000000000
+   t=2090ms rid=3 dev=0x10085 size=212 count=1 X=4040 Y=6974 Cid=642   raw=0301D92DE7188202C80FC80F3E1B3E1BBF00F500000000000000000000000000
+   t=2124ms rid=3 dev=0x10085 size=212 count=1 X=4042 Y=6974 Cid=642   raw=0303DA2DE7188202CA0FCA0F3E1B3E1BCA000801000000000000000000000000
+   t=2124ms rid=3 dev=0x10085 size=212 count=1 X=4045 Y=6949 Cid=642   raw=0301DB2DE7168202CD0FCD0F251B251BD4001901000000000000000000000000
+   t=2124ms rid=3 dev=0x10085 size=212 count=1 X=4051 Y=6915 Cid=642   raw=0301DC2DE71A8202D30FD30F031B031BDE001B01000000000000000000000000
