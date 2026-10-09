@@ -1,0 +1,41 @@
+Windows Registry Editor Version 5.00
+
+; ---------------------------------------------------------------------------
+; 撤销: 恢复"关闭开始菜单联网搜索"的全部改动
+; Undo: revert every change made to disable Start menu web search
+;
+; 用法: 右键 -> 合并
+;       因为包含 HKEY_LOCAL_MACHINE 项, 会弹出 UAC, 请点【是】
+;
+; 改动前的原始状态:
+;   HKCU\...\CurrentVersion\Search\BingSearchEnabled        未设置
+;   HKCU\...\CurrentVersion\Search\CortanaConsent           未设置
+;   HKCU\...\SearchSettings\IsDynamicSearchBoxEnabled       0  (原本就是 0)
+;   HKCU\...\SearchSettings\IsMSACloudSearchEnabled         0  (原本就是 0)
+;   HKCU\...\SearchSettings\IsAADCloudSearchEnabled         0  (原本就是 0)
+;   HKCU\SOFTWARE\Policies\Microsoft\Windows\Explorer       键原本不存在
+;   HKLM\SOFTWARE\Policies\Microsoft\Windows\Windows Search 键存在但为空
+;
+; 完整备份另见: search-settings-backup\Search.reg
+;               search-settings-backup\SearchSettings.reg
+; ---------------------------------------------------------------------------
+
+; --- 用户级 (这两项当初被系统保护, 实际未写入成功, 写在这里只为保险) ---
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Search]
+"BingSearchEnabled"=-
+"CortanaConsent"=-
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\SearchSettings]
+"IsDynamicSearchBoxEnabled"=dword:00000000
+"IsMSACloudSearchEnabled"=dword:00000000
+"IsAADCloudSearchEnabled"=dword:00000000
+
+; --- 移除搜索框的网页/建议 ---
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer]
+"DisableSearchBoxSuggestions"=-
+
+; --- 机器级策略 (真正让联网搜索失效的那三条) ---
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search]
+"DisableWebSearch"=-
+"ConnectedSearchUseWeb"=-
+"AllowCloudSearch"=-
