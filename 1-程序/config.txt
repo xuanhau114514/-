@@ -1,0 +1,15 @@
+# Start menu swipe tool  -- parameters measured from real finger swipes
+#   duration  movement time in ms          (measured typical: 110-170)
+#   distance  upward travel in px          (measured typical: 170-250)
+#   ease      >1 = ease-in, accelerating like a real flick
+#   hold      dwell after touch-down in ms (measured typical: 20-40)
+#   winkey    on/off; off leaves Win and CapsLock completely alone
+#
+# NOTE: there is deliberately no "pause at the top before release" option.
+# Releasing while the contact is still moving is what gives the shell's fling
+# animation its initial velocity. Pausing first makes the menu snap.
+duration=120
+distance=200
+ease=2.0
+hold=30
+winkey=on
